@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+#nav {
+  background-color: #ff6600;
+  width: 100%;
+  border: 1px solid red;
+}
+
+#content {
+  border: 1px solid blue;
+  background-color: #ffffff;
+}
+
+.container {
+  border: 1px solid #ccc;
+}
+
+#about, #my-work, #contact-me {
+  border: 1px solid yellow;
+}
+
+.menu li {
+  width: 150px;
+  padding: 10px 0px;
+
+  border: 1px solid #fff;
+  border-radius: 8px;
+
+  list-style-type: none;
+  text-align: center;
+  background-color: #ff6600;
+  color: #fff;
+
+  display: inline-block;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+li:hover  {
+  border: 1px solid #ff6600;
+  background-color: #fff;
+}
+
+li:hover a {
+  color: #ff6600;
+  font-weight: 800;
+}
+
+#my-avatar {
+  
+  margin-right: 20px;
+  float: left;
+}
+
+#my-avatar img {
+  width: 200px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+table {
+  font-size: 14px;
+  text-align: left;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+td {
+  color: #666;
+  padding-left: 10px;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+
+.item {max-width: 30%;
+
+  position: relative;
+  display: inline-block;
+    margin-bottom: 10px;
+  }
+
+.item img{width: 100%;}
+
+.item-info{
+  border: 1px solid red;                    /* 標示用，排版完記得拿掉 */
+    background-color: rgba(255,255,255,.8);   /* 背景半透明 */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;height: 100%;
+           text-align:centet;
+           padding 26px 10px;}
